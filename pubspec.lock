@@ -97,17 +97,17 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: d46f71f6759b10e14ef4ab82c225dc4ae67278a9
-      url: "https://github.com/mmcc007/fake_process_manager.git"
+      resolved-ref: "6baf375067c672cae178397c3693e4d5aee5bd3e"
+      url: "https://github.com/ivan-horchakov/fake_process_manager.git"
     source: git
-    version: "0.0.0"
+    version: "0.1.0+1"
   file:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: file
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "5.1.0"
+    version: "6.0.0-nullsafety.2"
   front_end:
     dependency: transitive
     description:
@@ -156,7 +156,7 @@ packages:
       name: intl
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.16.0"
+    version: "0.16.1"
   io:
     dependency: transitive
     description:
@@ -205,7 +205,7 @@ packages:
       name: meta
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.8"
+    version: "1.3.0-nullsafety.3"
   mime:
     dependency: transitive
     description:
@@ -268,7 +268,7 @@ packages:
       name: path
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.6.4"
+    version: "1.8.0-nullsafety.1"
   pedantic:
     dependency: "direct dev"
     description:
@@ -282,7 +282,7 @@ packages:
       name: platform
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.2.1"
+    version: "3.0.0-nullsafety.2"
   pool:
     dependency: transitive
     description:
@@ -296,7 +296,14 @@ packages:
       name: process
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.0.12"
+    version: "4.0.0-nullsafety.2"
+  pub_cache:
+    dependency: transitive
+    description:
+      name: pub_cache
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.2.3"
   pub_semver:
     dependency: transitive
     description:
@@ -311,6 +318,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.2+1"
+  reporting:
+    dependency: transitive
+    description:
+      path: "."
+      ref: master
+      resolved-ref: "7d7954b6e231a5b5f3a8906c14dd5dd9e777c56d"
+      url: "git://github.com/ivan-horchakov/reporting.git"
+    source: git
+    version: "0.0.0"
   resource:
     dependency: "direct main"
     description:
@@ -426,17 +442,19 @@ packages:
   tool_base:
     dependency: "direct main"
     description:
-      name: tool_base
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.9.5+2"
+      path: "."
+      ref: master
+      resolved-ref: "6f60a5e68ab664a2d4759929747aa4562b56d368"
+      url: "git://github.com/ivan-horchakov/tool_base.git"
+    source: git
+    version: "1.9.5+3"
   tool_base_test:
     dependency: "direct dev"
     description:
       path: "."
       ref: HEAD
-      resolved-ref: fbd53d1a3cf4b0f89dc0ced0c7679ec71b30c913
-      url: "https://github.com/mmcc007/tool_base_test.git"
+      resolved-ref: d087b7cefda45850d84dd324345a2bb67f1e286f
+      url: "https://github.com/ivan-horchakov/tool_base_test.git"
     source: git
     version: "0.0.0"
   typed_data:
@@ -446,6 +464,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.1.6"
+  usage:
+    dependency: transitive
+    description:
+      name: usage
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.4.1"
   version:
     dependency: "direct main"
     description:
@@ -489,4 +514,4 @@ packages:
     source: hosted
     version: "0.1.0"
 sdks:
-  dart: ">=2.4.0 <3.0.0"
+  dart: ">=2.10.0-0.0 <2.11.0"
