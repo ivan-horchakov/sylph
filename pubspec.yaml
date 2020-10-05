@@ -28,10 +28,14 @@ dev_dependencies:
   test: ^1.0.0
   pedantic: ^1.8.0+1
   tool_base_test:
-    git: https://github.com/ivan-horchakov/tool_base_test.git
+    git:
+      url: git://github.com/ivan-horchakov/tool_base_test.git
+      ref: master
 #    path: ../tool_base_test
   fake_process_manager:
-    git: https://github.com/ivan-horchakov/fake_process_manager.git
+    git:
+      url: git://github.com/ivan-horchakov/fake_process_manager.git
+      ref: master
 #    path: ../fake_process_manager
   mockito: ^4.1.0
 
