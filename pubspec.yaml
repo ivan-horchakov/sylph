@@ -20,7 +20,7 @@ dependencies:
     git:
       url: git://github.com/ivan-horchakov/tool_base.git
       ref: master
-  process: ^4.0.0-nullsafety.2
+  process: ^3.0.13
   file: ^6.0.0-nullsafety.1
   collection: ^1.14.12
 
