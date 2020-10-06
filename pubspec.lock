@@ -96,8 +96,8 @@ packages:
     dependency: "direct dev"
     description:
       path: "."
-      ref: HEAD
-      resolved-ref: "6baf375067c672cae178397c3693e4d5aee5bd3e"
+      ref: master
+      resolved-ref: "4ace9d332a43d5ee8aac9671e7aad783bed61282"
       url: "https://github.com/ivan-horchakov/fake_process_manager.git"
     source: git
     version: "0.1.0+1"
@@ -107,7 +107,7 @@ packages:
       name: file
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "6.0.0-nullsafety.2"
+    version: "5.2.1"
   front_end:
     dependency: transitive
     description:
@@ -282,7 +282,7 @@ packages:
       name: platform
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.0.0-nullsafety.2"
+    version: "2.2.1"
   pool:
     dependency: transitive
     description:
@@ -296,7 +296,7 @@ packages:
       name: process
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "4.0.0-nullsafety.2"
+    version: "3.0.13"
   pub_cache:
     dependency: transitive
     description:
@@ -323,8 +323,8 @@ packages:
     description:
       path: "."
       ref: master
-      resolved-ref: "7d7954b6e231a5b5f3a8906c14dd5dd9e777c56d"
-      url: "git://github.com/ivan-horchakov/reporting.git"
+      resolved-ref: e0618cfd56e01d2f981ab7f5d33a157f3deffc53
+      url: "https://github.com/ivan-horchakov/reporting.git"
     source: git
     version: "0.0.0"
   resource:
@@ -444,16 +444,16 @@ packages:
     description:
       path: "."
       ref: master
-      resolved-ref: "6f60a5e68ab664a2d4759929747aa4562b56d368"
-      url: "git://github.com/ivan-horchakov/tool_base.git"
+      resolved-ref: "5469bacff23e70de55fc4d99a2037047665d928b"
+      url: "https://github.com/ivan-horchakov/tool_base.git"
     source: git
     version: "1.9.5+3"
   tool_base_test:
     dependency: "direct dev"
     description:
       path: "."
-      ref: HEAD
-      resolved-ref: d087b7cefda45850d84dd324345a2bb67f1e286f
+      ref: master
+      resolved-ref: "4946f515bdf10dd23d9a1773b931f5d3eb1a3be4"
       url: "https://github.com/ivan-horchakov/tool_base_test.git"
     source: git
     version: "0.0.0"
@@ -514,4 +514,4 @@ packages:
     source: hosted
     version: "0.1.0"
 sdks:
-  dart: ">=2.10.0-0.0 <2.11.0"
+  dart: ">=2.10.0-0 <2.11.0"

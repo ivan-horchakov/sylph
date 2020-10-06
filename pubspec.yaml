@@ -18,7 +18,7 @@ dependencies:
   yamlicious: ^0.1.0
   tool_base:
     git:
-      url: git://github.com/ivan-horchakov/tool_base.git
+      url: https://github.com/ivan-horchakov/tool_base.git
       ref: master
   process: ^3.0.13
   file: ^5.2.1
@@ -29,12 +29,12 @@ dev_dependencies:
   pedantic: ^1.8.0+1
   tool_base_test:
     git:
-      url: git://github.com/ivan-horchakov/tool_base_test.git
+      url: https://github.com/ivan-horchakov/tool_base_test.git
       ref: master
 #    path: ../tool_base_test
   fake_process_manager:
     git:
-      url: git://github.com/ivan-horchakov/fake_process_manager.git
+      url: https://github.com/ivan-horchakov/fake_process_manager.git
       ref: master
 #    path: ../fake_process_manager
   mockito: ^4.1.0
